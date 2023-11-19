@@ -1,8 +1,0 @@
-Sun 19 Nov 2023 02:15:00 PM EST
-PING www.falklandislands.com (51.145.110.210) 56(84) bytes of data.
-64 bytes from 51.145.110.210 (51.145.110.210): icmp_seq=1 ttl=110 time=120 ms
-64 bytes from 51.145.110.210 (51.145.110.210): icmp_seq=2 ttl=110 time=178 ms
-
---- www.falklandislands.com ping statistics ---
-2 packets transmitted, 2 received, 0% packet loss, time 1002ms
-rtt min/avg/max/mdev = 119.650/148.984/178.318/29.334 ms

@@ -1,5 +1,5 @@
 # ping
-pingcount=2
+pingcount=120
 date >> ping/ping_svalbard | ping -c $pingcount www.unis.no >> ping/ping_svalbard
 date >> ping/ping_tsinghua | ping -c $pingcount www.tsinghua.edu.cn  >> ping/ping_tsinghua
 date >> ping/ping_yellowknife | ping -c $pingcount www.yellowknife.ca  >> ping/ping_yellowknife

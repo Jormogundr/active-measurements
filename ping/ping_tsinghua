@@ -1,0 +1,8 @@
+Sun 19 Nov 2023 02:14:56 PM EST
+PING www.tsinghua.edu.cn (166.111.4.100) 56(84) bytes of data.
+64 bytes from www.tsinghua.edu.cn (166.111.4.100): icmp_seq=1 ttl=31 time=248 ms
+64 bytes from www.tsinghua.edu.cn (166.111.4.100): icmp_seq=2 ttl=31 time=305 ms
+
+--- www.tsinghua.edu.cn ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 248.079/276.340/304.601/28.261 ms

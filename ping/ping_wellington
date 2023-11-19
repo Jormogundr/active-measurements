@@ -1,0 +1,8 @@
+Sun 19 Nov 2023 02:14:59 PM EST
+PING dmfb23w7psdto.cloudfront.net (52.84.18.97) 56(84) bytes of data.
+64 bytes from server-52-84-18-97.ord53.r.cloudfront.net (52.84.18.97): icmp_seq=1 ttl=245 time=24.5 ms
+64 bytes from server-52-84-18-97.ord53.r.cloudfront.net (52.84.18.97): icmp_seq=2 ttl=245 time=21.0 ms
+
+--- dmfb23w7psdto.cloudfront.net ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 20.983/22.756/24.529/1.773 ms

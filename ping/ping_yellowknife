@@ -1,0 +1,8 @@
+Sun 19 Nov 2023 02:14:57 PM EST
+PING 231121-www-yellowknife-ca.esolg.ca (20.104.44.154) 56(84) bytes of data.
+64 bytes from 20.104.44.154 (20.104.44.154): icmp_seq=1 ttl=113 time=40.6 ms
+64 bytes from 20.104.44.154 (20.104.44.154): icmp_seq=2 ttl=113 time=41.3 ms
+
+--- 231121-www-yellowknife-ca.esolg.ca ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 40.619/40.950/41.282/0.331 ms

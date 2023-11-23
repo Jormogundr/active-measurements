@@ -1,0 +1,256 @@
+Sun 19 Nov 2023 02:45:52 PM EST
+traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
+ 1  _gateway (192.168.1.1)  2.234 ms  2.789 ms  3.155 ms
+ 2  96.120.42.133 (96.120.42.133)  10.885 ms  11.265 ms  17.402 ms
+ 3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  16.337 ms  16.709 ms  17.069 ms
+ 4  ae-57-ar01.pontiac.mi.michigan.comcast.net (68.87.191.233)  27.482 ms  28.310 ms  28.911 ms
+ 5  be-32121-cs22.350ecermak.il.ibone.comcast.net (96.110.42.181)  26.289 ms * be-32141-cs24.350ecermak.il.ibone.comcast.net (96.110.42.189)  28.874 ms
+ 6  be-2204-pe04.350ecermak.il.ibone.comcast.net (96.110.37.38)  24.194 ms be-2304-pe04.350ecermak.il.ibone.comcast.net (96.110.37.42)  17.939 ms be-2104-pe04.350ecermak.il.ibone.comcast.net (96.110.37.34)  17.489 ms
+ 7  66.208.233.114 (66.208.233.114)  25.232 ms  25.591 ms  24.385 ms
+ 8  HundredGE0-0-0-1.clbr02.hkg04.pccwbtn.net (63.223.17.242)  217.766 ms  220.391 ms  218.509 ms
+ 9  tsingHua.hu0-0-0-9.clbr02.hkg04.pccwbtn.net (63.218.115.14)  220.365 ms  220.353 ms  220.840 ms
+10  101.4.114.181 (101.4.114.181)  257.773 ms  257.760 ms  255.960 ms
+11  * * *
+12  101.4.117.81 (101.4.117.81)  244.897 ms  246.398 ms  263.005 ms
+13  101.4.113.201 (101.4.113.201)  262.911 ms  256.597 ms  257.225 ms
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+Sun 19 Nov 2023 08:21:36 PM EST
+traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
+ 1  _gateway (192.168.1.1)  6.184 ms  6.223 ms  6.915 ms
+ 2  96.120.42.133 (96.120.42.133)  15.380 ms  15.840 ms  24.387 ms
+ 3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  21.831 ms  22.199 ms  22.651 ms
+ 4  ae-57-ar01.pontiac.mi.michigan.comcast.net (68.87.191.233)  31.860 ms  32.293 ms  32.280 ms
+ 5  * * *
+ 6  be-2204-pe04.350ecermak.il.ibone.comcast.net (96.110.37.38)  31.219 ms be-2104-pe04.350ecermak.il.ibone.comcast.net (96.110.37.34)  20.072 ms  26.096 ms
+ 7  66.208.233.114 (66.208.233.114)  17.747 ms  25.131 ms  24.312 ms
+ 8  HundredGE0-0-0-1.clbr02.hkg04.pccwbtn.net (63.223.17.242)  219.963 ms  219.949 ms  219.936 ms
+ 9  tsingHua.hu0-0-0-9.clbr02.hkg04.pccwbtn.net (63.218.115.14)  218.506 ms  221.011 ms  218.962 ms
+10  101.4.114.181 (101.4.114.181)  256.217 ms  255.429 ms  256.728 ms
+11  * * *
+12  101.4.117.81 (101.4.117.81)  253.306 ms * *
+13  101.4.113.201 (101.4.113.201)  263.160 ms  263.145 ms  263.131 ms
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+Mon 20 Nov 2023 06:43:52 PM EST
+traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
+ 1  _gateway (192.168.1.1)  2.261 ms  2.919 ms  4.173 ms
+ 2  96.120.42.133 (96.120.42.133)  20.340 ms  20.323 ms  20.313 ms
+ 3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  18.390 ms  18.649 ms  19.417 ms
+ 4  ae-57-ar01.pontiac.mi.michigan.comcast.net (68.87.191.233)  28.417 ms  28.914 ms  28.904 ms
+ 5  be-32121-cs22.350ecermak.il.ibone.comcast.net (96.110.42.181)  28.970 ms *  28.952 ms
+ 6  be-2104-pe04.350ecermak.il.ibone.comcast.net (96.110.37.34)  28.880 ms be-2204-pe04.350ecermak.il.ibone.comcast.net (96.110.37.38)  20.790 ms be-2304-pe04.350ecermak.il.ibone.comcast.net (96.110.37.42)  20.024 ms
+ 7  66.208.233.114 (66.208.233.114)  26.626 ms  29.960 ms  30.913 ms
+ 8  HundredGE0-0-0-1.clbr02.hkg04.pccwbtn.net (63.223.17.242)  233.766 ms  231.143 ms  231.654 ms
+ 9  tsingHua.hu0-0-0-9.clbr02.hkg04.pccwbtn.net (63.218.115.14)  237.895 ms  230.380 ms  228.244 ms
+10  101.4.114.181 (101.4.114.181)  276.233 ms  276.229 ms  264.785 ms
+11  * * *
+12  101.4.117.81 (101.4.117.81)  249.855 ms  252.577 ms  267.178 ms
+13  101.4.113.201 (101.4.113.201)  267.769 ms  249.196 ms  260.733 ms
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+Mon 20 Nov 2023 09:16:25 PM EST
+traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
+ 1  _gateway (192.168.1.1)  3.738 ms  4.411 ms  5.267 ms
+ 2  96.120.42.133 (96.120.42.133)  14.184 ms  21.821 ms  22.357 ms
+ 3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  20.164 ms  20.549 ms  20.923 ms
+ 4  ae-57-ar01.pontiac.mi.michigan.comcast.net (68.87.191.233)  25.077 ms  25.999 ms  26.569 ms
+ 5  * be-32111-cs21.350ecermak.il.ibone.comcast.net (96.110.42.177)  32.294 ms be-32141-cs24.350ecermak.il.ibone.comcast.net (96.110.42.189)  31.694 ms
+ 6  be-2404-pe04.350ecermak.il.ibone.comcast.net (96.110.37.46)  28.994 ms be-2104-pe04.350ecermak.il.ibone.comcast.net (96.110.37.34)  28.199 ms be-2204-pe04.350ecermak.il.ibone.comcast.net (96.110.37.38)  18.535 ms
+ 7  66.208.233.114 (66.208.233.114)  26.219 ms  27.833 ms  26.824 ms
+ 8  * * *
+ 9  tsingHua.hu0-0-0-9.clbr02.hkg04.pccwbtn.net (63.218.115.14)  228.457 ms  219.910 ms  228.923 ms
+10  101.4.114.181 (101.4.114.181)  271.620 ms  271.191 ms  259.923 ms
+11  * * *
+12  101.4.117.81 (101.4.117.81)  341.450 ms  260.494 ms  261.341 ms
+13  101.4.113.201 (101.4.113.201)  262.377 ms  251.999 ms  250.973 ms
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+Tue 21 Nov 2023 09:32:21 PM EST
+traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
+ 1  _gateway (192.168.1.1)  4.205 ms  5.124 ms  13.495 ms
+ 2  96.120.42.133 (96.120.42.133)  22.387 ms  21.893 ms  22.853 ms
+ 3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  28.618 ms  28.980 ms  31.075 ms
+ 4  ae-57-ar01.pontiac.mi.michigan.comcast.net (68.87.191.233)  32.405 ms  33.623 ms  33.610 ms
+ 5  be-32111-cs21.350ecermak.il.ibone.comcast.net (96.110.42.177)  39.348 ms be-32131-cs23.350ecermak.il.ibone.comcast.net (96.110.42.185)  38.884 ms  38.869 ms
+ 6  be-2404-pe04.350ecermak.il.ibone.comcast.net (96.110.37.46)  36.319 ms  20.672 ms be-2104-pe04.350ecermak.il.ibone.comcast.net (96.110.37.34)  20.630 ms
+ 7  66.208.233.114 (66.208.233.114)  27.101 ms  27.638 ms  28.116 ms
+ 8  HundredGE0-0-0-1.clbr02.hkg04.pccwbtn.net (63.223.17.242)  221.042 ms  230.839 ms  221.672 ms
+ 9  tsingHua.hu0-0-0-9.clbr02.hkg04.pccwbtn.net (63.218.115.14)  229.608 ms  220.644 ms  230.269 ms
+10  101.4.114.181 (101.4.114.181)  257.499 ms  265.985 ms  257.936 ms
+11  * * *
+12  * * *
+13  101.4.113.201 (101.4.113.201)  247.458 ms  259.837 ms  306.810 ms
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+Tue 21 Nov 2023 09:48:59 PM EST
+traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
+ 1  _gateway (192.168.1.1)  4.367 ms  4.697 ms  5.060 ms
+ 2  96.120.42.133 (96.120.42.133)  12.378 ms  12.857 ms  12.037 ms
+ 3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  11.403 ms  11.641 ms  16.095 ms
+ 4  ae-57-ar01.pontiac.mi.michigan.comcast.net (68.87.191.233)  18.098 ms  18.849 ms  19.377 ms
+ 5  be-32111-cs21.350ecermak.il.ibone.comcast.net (96.110.42.177)  26.105 ms be-32141-cs24.350ecermak.il.ibone.comcast.net (96.110.42.189)  27.703 ms be-32131-cs23.350ecermak.il.ibone.comcast.net (96.110.42.185)  27.199 ms
+ 6  be-2304-pe04.350ecermak.il.ibone.comcast.net (96.110.37.42)  24.364 ms be-2204-pe04.350ecermak.il.ibone.comcast.net (96.110.37.38)  18.200 ms be-2304-pe04.350ecermak.il.ibone.comcast.net (96.110.37.42)  24.036 ms
+ 7  66.208.233.114 (66.208.233.114)  24.772 ms  24.300 ms  24.743 ms
+ 8  HundredGE0-0-0-1.clbr02.hkg04.pccwbtn.net (63.223.17.242)  219.862 ms  227.091 ms  220.354 ms
+ 9  tsingHua.hu0-0-0-9.clbr02.hkg04.pccwbtn.net (63.218.115.14)  226.650 ms  217.544 ms  218.445 ms
+10  101.4.114.181 (101.4.114.181)  255.843 ms  254.785 ms  263.296 ms
+11  * * *
+12  * * *
+13  101.4.113.201 (101.4.113.201)  355.999 ms  272.381 ms  271.474 ms
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+Wed 22 Nov 2023 11:24:51 AM EST
+traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
+ 1  _gateway (192.168.1.1)  2.137 ms  2.473 ms  2.599 ms
+ 2  96.120.42.133 (96.120.42.133)  12.266 ms  16.334 ms  16.859 ms
+ 3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  19.456 ms  20.201 ms  20.596 ms
+ 4  ae-57-ar01.pontiac.mi.michigan.comcast.net (68.87.191.233)  21.832 ms  22.524 ms  23.059 ms
+ 5  * * *
+ 6  be-2304-pe04.350ecermak.il.ibone.comcast.net (96.110.37.42)  28.009 ms be-2404-pe04.350ecermak.il.ibone.comcast.net (96.110.37.46)  23.889 ms be-2104-pe04.350ecermak.il.ibone.comcast.net (96.110.37.34)  26.165 ms
+ 7  66.208.233.114 (66.208.233.114)  32.197 ms  30.573 ms  30.983 ms
+ 8  HundredGE0-0-0-1.clbr02.hkg04.pccwbtn.net (63.223.17.242)  227.049 ms  231.886 ms  228.892 ms
+ 9  tsingHua.hu0-0-0-9.clbr02.hkg04.pccwbtn.net (63.218.115.14)  227.774 ms  228.377 ms  225.457 ms
+10  101.4.114.181 (101.4.114.181)  264.406 ms  271.954 ms  261.713 ms
+11  * * *
+12  * 101.4.117.81 (101.4.117.81)  269.750 ms  270.255 ms
+13  101.4.113.201 (101.4.113.201)  261.208 ms  291.612 ms  282.968 ms
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+Thu 23 Nov 2023 10:58:47 AM EST
+traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
+ 1  _gateway (192.168.1.1)  6.264 ms  6.593 ms  6.580 ms
+ 2  96.120.42.133 (96.120.42.133)  25.240 ms  26.472 ms  25.962 ms
+ 3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  23.994 ms  24.346 ms  24.801 ms
+ 4  ae-57-ar01.pontiac.mi.michigan.comcast.net (68.87.191.233)  26.398 ms  26.386 ms  26.372 ms
+ 5  be-32141-cs24.350ecermak.il.ibone.comcast.net (96.110.42.189)  32.148 ms be-32121-cs22.350ecermak.il.ibone.comcast.net (96.110.42.181)  31.748 ms *
+ 6  be-2304-pe04.350ecermak.il.ibone.comcast.net (96.110.37.42)  30.219 ms be-2404-pe04.350ecermak.il.ibone.comcast.net (96.110.37.46)  18.245 ms be-2304-pe04.350ecermak.il.ibone.comcast.net (96.110.37.42)  18.638 ms
+ 7  66.208.233.114 (66.208.233.114)  25.079 ms  25.598 ms  24.448 ms
+ 8  HundredGE0-0-0-1.clbr02.hkg04.pccwbtn.net (63.223.17.242)  223.734 ms  232.033 ms  223.050 ms
+ 9  tsingHua.hu0-0-0-9.clbr02.hkg04.pccwbtn.net (63.218.115.14)  231.473 ms  225.012 ms  224.304 ms
+10  101.4.114.181 (101.4.114.181)  260.261 ms  259.517 ms  283.071 ms
+11  * * *
+12  101.4.117.81 (101.4.117.81)  249.843 ms  256.066 ms  264.074 ms
+13  101.4.113.201 (101.4.113.201)  255.535 ms  259.957 ms  307.386 ms
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *

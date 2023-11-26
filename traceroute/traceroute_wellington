@@ -154,3 +154,140 @@ traceroute to www.wellingtonairport.co.nz (52.84.18.94), 30 hops max, 60 byte pa
 15  * * *
 16  * * *
 17  server-52-84-18-94.ord53.r.cloudfront.net (52.84.18.94)  31.317 ms  19.729 ms  24.901 ms
+Fri 24 Nov 2023 11:23:46 AM EST
+traceroute to www.wellingtonairport.co.nz (52.84.18.97), 30 hops max, 60 byte packets
+ 1  _gateway (192.168.1.1)  4.016 ms  4.330 ms  5.087 ms
+ 2  96.120.42.133 (96.120.42.133)  12.560 ms  26.305 ms  25.883 ms
+ 3  po-301-1203-rur01.monroe.mi.michigan.comcast.net (96.110.96.49)  24.497 ms  25.299 ms  25.285 ms
+ 4  po-4-rur02.monroe.mi.michigan.comcast.net (69.139.254.74)  24.959 ms  25.346 ms  25.334 ms
+ 5  ae-57-ar01.pontiac.mi.michigan.comcast.net (68.87.191.233)  29.187 ms  29.702 ms  30.188 ms
+ 6  be-32141-cs24.350ecermak.il.ibone.comcast.net (96.110.42.189)  35.666 ms be-32111-cs21.350ecermak.il.ibone.comcast.net (96.110.42.177)  26.617 ms be-32141-cs24.350ecermak.il.ibone.comcast.net (96.110.42.189)  21.223 ms
+ 7  be-2411-pe11.350ecermak.il.ibone.comcast.net (96.110.33.206)  25.822 ms be-2211-pe11.350ecermak.il.ibone.comcast.net (96.110.33.198)  25.806 ms be-2213-pe13.350ecermak.il.ibone.comcast.net (96.110.32.90)  25.799 ms
+ 8  * * *
+ 9  150.222.212.57 (150.222.212.57)  25.740 ms 52.95.62.129 (52.95.62.129)  25.760 ms 150.222.212.49 (150.222.212.49)  25.725 ms
+10  * * *
+11  150.222.100.56 (150.222.100.56)  28.568 ms 150.222.100.88 (150.222.100.88)  28.089 ms 150.222.100.126 (150.222.100.126)  20.096 ms
+12  150.222.216.25 (150.222.216.25)  20.120 ms 150.222.216.29 (150.222.216.29)  25.934 ms 150.222.216.19 (150.222.216.19)  26.337 ms
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  server-52-84-18-97.ord53.r.cloudfront.net (52.84.18.97)  26.326 ms  19.801 ms  19.206 ms
+Fri 24 Nov 2023 03:39:46 PM EST
+traceroute to www.wellingtonairport.co.nz (52.84.18.8), 30 hops max, 60 byte packets
+ 1  _gateway (192.168.1.1)  1.984 ms  2.303 ms  3.771 ms
+ 2  96.120.42.133 (96.120.42.133)  12.631 ms  23.616 ms  23.603 ms
+ 3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  20.952 ms  21.063 ms  22.692 ms
+ 4  ae-57-ar01.pontiac.mi.michigan.comcast.net (68.87.191.233)  27.121 ms  27.747 ms  28.243 ms
+ 5  be-32111-cs21.350ecermak.il.ibone.comcast.net (96.110.42.177)  32.342 ms * be-32141-cs24.350ecermak.il.ibone.comcast.net (96.110.42.189)  31.772 ms
+ 6  be-2313-pe13.350ecermak.il.ibone.comcast.net (96.110.32.94)  29.593 ms be-2412-pe12.350ecermak.il.ibone.comcast.net (96.110.33.222)  18.795 ms be-2211-pe11.350ecermak.il.ibone.comcast.net (96.110.33.198)  19.277 ms
+ 7  * * *
+ 8  52.95.62.83 (52.95.62.83)  33.411 ms 52.95.62.33 (52.95.62.33)  29.992 ms 52.95.62.47 (52.95.62.47)  25.486 ms
+ 9  * * *
+10  150.222.100.62 (150.222.100.62)  26.428 ms 150.222.100.92 (150.222.100.92)  32.704 ms 15.230.147.23 (15.230.147.23)  38.640 ms
+11  150.222.216.31 (150.222.216.31)  38.129 ms 150.222.216.25 (150.222.216.25)  21.193 ms 150.222.216.19 (150.222.216.19)  28.488 ms
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  server-52-84-18-8.ord53.r.cloudfront.net (52.84.18.8)  25.857 ms  20.446 ms  27.702 ms
+Sat 25 Nov 2023 11:01:56 AM EST
+traceroute to www.wellingtonairport.co.nz (52.84.18.21), 30 hops max, 60 byte packets
+ 1  _gateway (192.168.1.1)  2.318 ms  2.543 ms  4.232 ms
+ 2  96.120.42.133 (96.120.42.133)  18.762 ms  19.493 ms  19.954 ms
+ 3  po-301-1203-rur01.monroe.mi.michigan.comcast.net (96.110.96.49)  17.207 ms  18.017 ms  18.004 ms
+ 4  po-4-rur02.monroe.mi.michigan.comcast.net (69.139.254.74)  17.124 ms  18.076 ms  18.062 ms
+ 5  ae-57-ar01.pontiac.mi.michigan.comcast.net (68.87.191.233)  20.511 ms  20.500 ms  20.487 ms
+ 6  be-32131-cs23.350ecermak.il.ibone.comcast.net (96.110.42.185)  25.499 ms be-32141-cs24.350ecermak.il.ibone.comcast.net (96.110.42.189)  17.994 ms *
+ 7  be-2113-pe13.350ecermak.il.ibone.comcast.net (96.110.32.86)  21.357 ms be-2312-pe12.350ecermak.il.ibone.comcast.net (96.110.33.218)  21.422 ms be-2212-pe12.350ecermak.il.ibone.comcast.net (96.110.33.214)  21.420 ms
+ 8  * * *
+ 9  150.222.212.25 (150.222.212.25)  23.140 ms 52.95.62.31 (52.95.62.31)  23.868 ms 150.222.212.51 (150.222.212.51)  22.130 ms
+10  * * *
+11  150.222.100.74 (150.222.100.74)  29.110 ms 150.222.100.44 (150.222.100.44)  25.486 ms 15.230.147.5 (15.230.147.5)  27.814 ms
+12  150.222.216.25 (150.222.216.25)  21.641 ms 150.222.216.19 (150.222.216.19)  22.048 ms 150.222.216.25 (150.222.216.25)  31.127 ms
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  server-52-84-18-21.ord53.r.cloudfront.net (52.84.18.21)  26.091 ms  20.454 ms  26.828 ms
+Sat 25 Nov 2023 02:16:04 PM EST
+traceroute to www.wellingtonairport.co.nz (52.84.18.97), 30 hops max, 60 byte packets
+ 1  _gateway (192.168.1.1)  2.484 ms  2.781 ms  2.820 ms
+ 2  96.120.42.133 (96.120.42.133)  11.985 ms  12.316 ms  19.595 ms
+ 3  po-301-1203-rur01.monroe.mi.michigan.comcast.net (96.110.96.49)  16.568 ms  16.556 ms  17.049 ms
+ 4  po-4-rur02.monroe.mi.michigan.comcast.net (69.139.254.74)  16.948 ms  16.936 ms  16.922 ms
+ 5  ae-57-ar01.pontiac.mi.michigan.comcast.net (68.87.191.233)  19.894 ms  20.505 ms  20.491 ms
+ 6  be-32141-cs24.350ecermak.il.ibone.comcast.net (96.110.42.189)  26.371 ms *  21.736 ms
+ 7  be-2312-pe12.350ecermak.il.ibone.comcast.net (96.110.33.218)  24.810 ms  24.762 ms be-2112-pe12.350ecermak.il.ibone.comcast.net (96.110.33.210)  24.758 ms
+ 8  * * *
+ 9  52.95.62.33 (52.95.62.33)  24.212 ms 52.95.62.147 (52.95.62.147)  34.772 ms *
+10  * * *
+11  15.230.147.51 (15.230.147.51)  26.209 ms 15.230.147.37 (15.230.147.37)  25.344 ms 15.230.147.33 (15.230.147.33)  19.369 ms
+12  150.222.216.29 (150.222.216.29)  23.959 ms 150.222.216.31 (150.222.216.31)  33.627 ms 150.222.216.29 (150.222.216.29)  19.044 ms
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  server-52-84-18-97.ord53.r.cloudfront.net (52.84.18.97)  23.320 ms  18.602 ms  23.357 ms
+Sat 25 Nov 2023 03:00:18 PM EST
+traceroute to www.wellingtonairport.co.nz (52.84.18.94), 30 hops max, 60 byte packets
+ 1  _gateway (192.168.1.1)  2.768 ms  2.851 ms  3.269 ms
+ 2  96.120.42.133 (96.120.42.133)  18.947 ms  19.894 ms  20.961 ms
+ 3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  17.734 ms  18.126 ms  18.258 ms
+ 4  ae-57-ar01.pontiac.mi.michigan.comcast.net (68.87.191.233)  22.193 ms  22.190 ms  22.186 ms
+ 5  be-32141-cs24.350ecermak.il.ibone.comcast.net (96.110.42.189)  29.039 ms be-32121-cs22.350ecermak.il.ibone.comcast.net (96.110.42.181)  28.072 ms be-32141-cs24.350ecermak.il.ibone.comcast.net (96.110.42.189)  28.605 ms
+ 6  be-2111-pe11.350ecermak.il.ibone.comcast.net (96.110.33.194)  25.437 ms be-2313-pe13.350ecermak.il.ibone.comcast.net (96.110.32.94)  18.874 ms be-2111-pe11.350ecermak.il.ibone.comcast.net (96.110.33.194)  17.817 ms
+ 7  * * *
+ 8  150.222.212.45 (150.222.212.45)  23.842 ms 150.222.212.13 (150.222.212.13)  33.253 ms 150.222.212.59 (150.222.212.59)  24.325 ms
+ 9  * * *
+10  15.230.147.45 (15.230.147.45)  28.426 ms 15.230.147.3 (15.230.147.3)  26.689 ms 15.230.147.39 (15.230.147.39)  25.564 ms
+11  150.222.216.19 (150.222.216.19)  33.703 ms 150.222.216.31 (150.222.216.31)  33.991 ms 150.222.216.25 (150.222.216.25)  17.984 ms
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  server-52-84-18-94.ord53.r.cloudfront.net (52.84.18.94)  19.631 ms  19.496 ms  26.775 ms
+Sat 25 Nov 2023 10:18:11 PM EST
+traceroute to www.wellingtonairport.co.nz (52.84.18.21), 30 hops max, 60 byte packets
+ 1  _gateway (192.168.1.1)  2.490 ms  2.862 ms  3.248 ms
+ 2  96.120.42.133 (96.120.42.133)  16.255 ms  16.243 ms  16.230 ms
+ 3  po-301-1203-rur01.monroe.mi.michigan.comcast.net (96.110.96.49)  14.451 ms  14.902 ms  14.888 ms
+ 4  po-4-rur02.monroe.mi.michigan.comcast.net (69.139.254.74)  14.563 ms  14.861 ms  14.847 ms
+ 5  ae-57-ar01.pontiac.mi.michigan.comcast.net (68.87.191.233)  17.598 ms  17.914 ms  18.540 ms
+ 6  * be-32131-cs23.350ecermak.il.ibone.comcast.net (96.110.42.185)  22.138 ms be-32121-cs22.350ecermak.il.ibone.comcast.net (96.110.42.181)  20.215 ms
+ 7  be-2311-pe11.350ecermak.il.ibone.comcast.net (96.110.33.202)  26.758 ms be-2411-pe11.350ecermak.il.ibone.comcast.net (96.110.33.206)  26.833 ms be-2412-pe12.350ecermak.il.ibone.comcast.net (96.110.33.222)  26.736 ms
+ 8  * * *
+ 9  150.222.212.37 (150.222.212.37)  39.182 ms 52.95.62.127 (52.95.62.127)  26.150 ms 52.95.62.141 (52.95.62.141)  25.771 ms
+10  * * *
+11  150.222.100.136 (150.222.100.136)  26.691 ms 150.222.100.40 (150.222.100.40)  21.057 ms 15.230.147.29 (15.230.147.29)  40.328 ms
+12  150.222.216.25 (150.222.216.25)  22.476 ms  18.030 ms  30.169 ms
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  server-52-84-18-21.ord53.r.cloudfront.net (52.84.18.21)  23.831 ms  17.868 ms  22.449 ms
+Sun 26 Nov 2023 12:10:13 AM EST
+traceroute to www.wellingtonairport.co.nz (52.84.18.94), 30 hops max, 60 byte packets
+ 1  _gateway (192.168.1.1)  3.163 ms  3.519 ms  4.276 ms
+ 2  96.120.42.133 (96.120.42.133)  10.723 ms  20.516 ms  20.508 ms
+ 3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  17.670 ms  17.965 ms  18.353 ms
+ 4  ae-57-ar01.pontiac.mi.michigan.comcast.net (68.87.191.233)  20.890 ms  21.428 ms  21.423 ms
+ 5  * be-32131-cs23.350ecermak.il.ibone.comcast.net (96.110.42.185)  26.841 ms be-32121-cs22.350ecermak.il.ibone.comcast.net (96.110.42.181)  28.827 ms
+ 6  be-2112-pe12.350ecermak.il.ibone.comcast.net (96.110.33.210)  25.674 ms be-2113-pe13.350ecermak.il.ibone.comcast.net (96.110.32.86)  19.956 ms be-2212-pe12.350ecermak.il.ibone.comcast.net (96.110.33.214)  20.807 ms
+ 7  * * *
+ 8  150.222.212.3 (150.222.212.3)  27.230 ms 150.222.212.55 (150.222.212.55)  24.782 ms 150.222.212.31 (150.222.212.31)  26.360 ms
+ 9  * * *
+10  15.230.147.45 (15.230.147.45)  27.682 ms 150.222.100.126 (150.222.100.126)  27.669 ms 150.222.100.140 (150.222.100.140)  27.606 ms
+11  150.222.216.19 (150.222.216.19)  27.659 ms 150.222.216.23 (150.222.216.23)  27.615 ms 150.222.216.25 (150.222.216.25)  19.769 ms
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  server-52-84-18-94.ord53.r.cloudfront.net (52.84.18.94)  31.832 ms  18.795 ms  26.123 ms

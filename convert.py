@@ -4,22 +4,31 @@ import datetime
 import subprocess as sp
 
 import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
 
 BASE_PATH = "/".join([os.getenv("HOME"), "active-measurements"])
 PING_PATH = "/".join([BASE_PATH, "ping"])
 TRACEROUTE_PATH = "/".join([BASE_PATH, "traceroute"])
+PINGS_PER_DST = 120
 
 
 def main():
     
     def convert_ping_raw_to_dataframe():
-        cols = ["ICMP_SEQ", "TTL", "TIME", "DATETIME", "DESTINATION"]
-        ping_df = pd.DataFrame(columns=cols)
+        cols = ["ICMP_SEQ", "TTL", "DELAY", "DATETIME", "UNIX_TIME", "DESTINATION"]
+        
 
         if not os.path.exists(PING_PATH):
             print("{} does not exist".format(PING_PATH))
 
         directory = os.fsencode(PING_PATH)
+
+        icmp_sequences = []
+        ttls = []
+        delays = []
+        datetimes, unix_times = [], []
+        destinations = []
 
         # iterate over files in dir
         for f in os.listdir(directory):
@@ -29,12 +38,7 @@ def main():
             fcontents = open(fname, "r")
             lines = fcontents.read().splitlines()
 
-            # initialize pandas series lists on per file basis
-            icmp_sequences = []
-            ttls = []
-            times = []
-            datetimes, unix_times = [], []
-            destinations = []
+            
 
             # iterate over lines in file
             for line in lines:
@@ -49,9 +53,9 @@ def main():
                     ttls.append(ttl[0])
 
                 # match time
-                time = re.findall(r"(?i)time=([0-9]*)", line)
-                if time:
-                    times.append(ttl[0])
+                delay = re.findall(r"(?i)time=([0-9]*)", line)
+                if delay:
+                    delays.append(delay[0])
                 
                 # match datetime
                 dt = re.findall(r"^[A-Z][a-z]{2}\ \d*\ [A-Z][a-z]{2}\ [\d]{4}\ [\d:]*\ [A-Z]{2}\ EST", line)
@@ -66,16 +70,30 @@ def main():
                     dst = line.strip("PING ").split(" ", 1)[0]
                     destinations.append(dst)
 
+            # rows in dataframe must be equal length
+            num_measurements = int(len(delays)/PINGS_PER_DST)
+            df_datetimes = []
+            df_unix_times = []
+            df_destinations = []
+            for m in range(0, num_measurements):
+                for n in range(0, PINGS_PER_DST):
+                    df_datetimes.append(datetimes[m])
+                    df_unix_times.append(unix_times[m])
+                    df_destinations.append(destinations[m])
 
-            # convert python lists to pandas series
-            icmp_sequence_series = pd.Series(icmp_sequences, dtype=int)
-            ttl_series = pd.Series(ttls, dtype=int)
-            time_series = pd.Series(times, dtype=int)
-            datetime_series = pd.Series(datetimes)
-            unix_time_series = pd.Series(unix_times, dtype=int)
-            print(datetime_series)
-
-            # add pandas series to pandas dataframe
+        # build dataframe after iterating through all files
+        # "ICMP_SEQ", "TTL", "DELAY", "DATETIME", "UNIX_TIME", "DESTINATION"
+        # ping_df = pd.DataFrame(columns=cols)
+        # ping_df['ICMP_SEQ'] = icmp_sequences
+        # ping_df['TTL'] = icmp_sequences
+        # ping_df['DELAY'] = delays
+        # ping_df['DATETIME'] = df_datetimes
+        # ping_df['UNIX_TIME'] = df_unix_times
+        # ping_df['DESTINATION'] = df_destinations
+        
+        # plot
+        plt.plot(delays)
+        plt.show()
             
             
 

@@ -542,3 +542,35 @@ traceroute to www.faroeislands.fo (34.247.153.46), 30 hops max, 60 byte packets
 28  * * *
 29  * * *
 30  * * *
+Sun 26 Nov 2023 04:28:22 PM EST
+traceroute to www.faroeislands.fo (34.247.153.46), 30 hops max, 60 byte packets
+ 1  _gateway (192.168.1.1)  2.601 ms  2.750 ms  2.888 ms
+ 2  96.120.42.133 (96.120.42.133)  10.661 ms  11.620 ms  11.198 ms
+ 3  po-301-1203-rur01.monroe.mi.michigan.comcast.net (96.110.96.49)  10.135 ms  16.851 ms  17.337 ms
+ 4  po-4-rur02.monroe.mi.michigan.comcast.net (69.139.254.74)  17.278 ms  17.372 ms  17.369 ms
+ 5  ae-57-ar01.pontiac.mi.michigan.comcast.net (68.87.191.233)  18.891 ms  19.397 ms  19.813 ms
+ 6  be-32131-cs23.350ecermak.il.ibone.comcast.net (96.110.42.185)  27.441 ms be-32111-cs21.350ecermak.il.ibone.comcast.net (96.110.42.177)  21.074 ms *
+ 7  be-2111-pe11.350ecermak.il.ibone.comcast.net (96.110.33.194)  21.113 ms be-2211-pe11.350ecermak.il.ibone.comcast.net (96.110.33.198)  28.400 ms be-2111-pe11.350ecermak.il.ibone.comcast.net (96.110.33.194)  25.831 ms
+ 8  chi-b23-link.ip.twelve99.net (62.115.54.21)  28.386 ms  61.268 ms  27.508 ms
+ 9  * * chi-bb2-link.ip.twelve99.net (62.115.126.158)  26.540 ms
+10  nyk-bb2-link.ip.twelve99.net (62.115.118.150)  38.027 ms  38.734 ms nyk-bb2-link.ip.twelve99.net (62.115.132.134)  39.268 ms
+11  * ldn-bb1-link.ip.twelve99.net (62.115.113.21)  112.183 ms  111.223 ms
+12  ldn-b11-link.ip.twelve99.net (62.115.141.247)  106.517 ms  102.408 ms ldn-b2-link.ip.twelve99.net (62.115.120.239)  103.562 ms
+13  amazon-ic-328653.ip.twelve99-cust.net (80.239.195.89)  131.863 ms  130.671 ms amazon-ic-328649.ip.twelve99-cust.net (213.248.101.13)  117.862 ms
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *

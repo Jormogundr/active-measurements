@@ -6,6 +6,7 @@ import subprocess as sp
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
 
 BASE_PATH = "/".join([os.getenv("HOME"), "active-measurements"])
 PING_PATH = "/".join([BASE_PATH, "ping"])
@@ -17,6 +18,10 @@ def main():
     
     def convert_ping_raw_to_dataframe():
         cols = ["ICMP_SEQ", "TTL", "DELAY", "DATETIME", "UNIX_TIME", "DESTINATION"]
+
+        # fig, ax = plt.subplots(1, 5)
+        # fig.set_figheight(15)
+        # fig.set_figwidth(15)
         
 
         if not os.path.exists(PING_PATH):
@@ -24,24 +29,23 @@ def main():
 
         directory = os.fsencode(PING_PATH)
 
-        icmp_sequences = []
-        ttls = []
-        delays = []
-        datetimes, unix_times = [], []
-        destinations = []
 
         # iterate over files in dir
-        for f in os.listdir(directory):
+        for i, f in enumerate(os.listdir(directory)):
             fname = "/".join([PING_PATH, os.fsdecode(f)])
             if not os.path.exists(fname):
                 print("{} does not exist".format(fname))
             fcontents = open(fname, "r")
             lines = fcontents.read().splitlines()
 
-            
+            icmp_sequences = []
+            ttls = []
+            delays = []
+            datetimes, unix_times = [], []
+            destinations = []
 
             # iterate over lines in file
-            for line in lines:
+            for j, line in enumerate(lines):
                 # match icmp_seq
                 icmp_seq = re.findall(r"(?i)icmp_seq=([0-9]*)", line)
                 if icmp_seq:
@@ -55,7 +59,7 @@ def main():
                 # match time
                 delay = re.findall(r"(?i)time=([0-9]*)", line)
                 if delay:
-                    delays.append(delay[0])
+                    delays.append(float(delay[0]))
                 
                 # match datetime
                 dt = re.findall(r"^[A-Z][a-z]{2}\ \d*\ [A-Z][a-z]{2}\ [\d]{4}\ [\d:]*\ [A-Z]{2}\ EST", line)
@@ -70,30 +74,36 @@ def main():
                     dst = line.strip("PING ").split(" ", 1)[0]
                     destinations.append(dst)
 
-            # rows in dataframe must be equal length
             num_measurements = int(len(delays)/PINGS_PER_DST)
-            df_datetimes = []
-            df_unix_times = []
-            df_destinations = []
-            for m in range(0, num_measurements):
-                for n in range(0, PINGS_PER_DST):
-                    df_datetimes.append(datetimes[m])
-                    df_unix_times.append(unix_times[m])
-                    df_destinations.append(destinations[m])
+            # handle plots on per file basis
+            avg = [] 
+            window = 10
 
-        # build dataframe after iterating through all files
-        # "ICMP_SEQ", "TTL", "DELAY", "DATETIME", "UNIX_TIME", "DESTINATION"
-        # ping_df = pd.DataFrame(columns=cols)
-        # ping_df['ICMP_SEQ'] = icmp_sequences
-        # ping_df['TTL'] = icmp_sequences
-        # ping_df['DELAY'] = delays
-        # ping_df['DATETIME'] = df_datetimes
-        # ping_df['UNIX_TIME'] = df_unix_times
-        # ping_df['DESTINATION'] = df_destinations
-        
-        # plot
-        plt.plot(delays)
-        plt.show()
+            # calculate average window
+            for ind in range(len(delays) - window + 1):
+                avg.append(np.mean(delays[ind:ind+window]))
+            
+            plt_datetimes = np.arange(0, len(delays), PINGS_PER_DST)
+
+
+            # plot
+            plt.vlines(3, ymin=0, ymax=1)
+            ax = plt.gca()
+            ax.set_ylim([min(delays) - 5, max(delays) + 5])
+            ax.set_title(f"Delay for {f.decode('UTF-8')}")
+            ax.plot(delays, '.', label='Raw data')
+            ax.plot(avg, 'r-', label='Average')
+            ax.vlines(plt_datetimes, ymin=min(delays), ymax=max(delays), color='g', linestyles='dashed', label="Datetimes", linewidth=1)
+            ax.set_xlabel("Measurement")
+            ax.set_xticks(plt_datetimes)
+            ax.set_xticklabels(datetimes)
+            ax.set_ylabel("Delay (ms)")
+            ax.legend(loc='upper right', fancybox=True, shadow=True)
+            ax.tick_params(axis='x', rotation=70)
+            plt.tight_layout()
+            plt.savefig(f"{BASE_PATH}/plots/{f.decode('UTF-8')}-delays.pdf", format='pdf')
+            plt.gcf().autofmt_xdate()
+            plt.show()
             
             
 

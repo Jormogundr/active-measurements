@@ -1,5 +1,5 @@
 Sun 19 Nov 2023 02:45:52 PM EST
-traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
+traceroute to 166.111.4.100 (166.111.4.100), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  2.234 ms  2.789 ms  3.155 ms
  2  96.120.42.133 (96.120.42.133)  10.885 ms  11.265 ms  17.402 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  16.337 ms  16.709 ms  17.069 ms
@@ -31,7 +31,7 @@ traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Sun 19 Nov 2023 08:21:36 PM EST
-traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
+traceroute to 166.111.4.100 (166.111.4.100), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  6.184 ms  6.223 ms  6.915 ms
  2  96.120.42.133 (96.120.42.133)  15.380 ms  15.840 ms  24.387 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  21.831 ms  22.199 ms  22.651 ms
@@ -63,7 +63,7 @@ traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Mon 20 Nov 2023 06:43:52 PM EST
-traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
+traceroute to 166.111.4.100 (166.111.4.100), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  2.261 ms  2.919 ms  4.173 ms
  2  96.120.42.133 (96.120.42.133)  20.340 ms  20.323 ms  20.313 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  18.390 ms  18.649 ms  19.417 ms
@@ -95,7 +95,7 @@ traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Mon 20 Nov 2023 09:16:25 PM EST
-traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
+traceroute to 166.111.4.100 (166.111.4.100), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  3.738 ms  4.411 ms  5.267 ms
  2  96.120.42.133 (96.120.42.133)  14.184 ms  21.821 ms  22.357 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  20.164 ms  20.549 ms  20.923 ms
@@ -127,7 +127,7 @@ traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Tue 21 Nov 2023 09:32:21 PM EST
-traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
+traceroute to 166.111.4.100 (166.111.4.100), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  4.205 ms  5.124 ms  13.495 ms
  2  96.120.42.133 (96.120.42.133)  22.387 ms  21.893 ms  22.853 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  28.618 ms  28.980 ms  31.075 ms
@@ -159,7 +159,7 @@ traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Tue 21 Nov 2023 09:48:59 PM EST
-traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
+traceroute to 166.111.4.100 (166.111.4.100), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  4.367 ms  4.697 ms  5.060 ms
  2  96.120.42.133 (96.120.42.133)  12.378 ms  12.857 ms  12.037 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  11.403 ms  11.641 ms  16.095 ms
@@ -191,7 +191,7 @@ traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Wed 22 Nov 2023 11:24:51 AM EST
-traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
+traceroute to 166.111.4.100 (166.111.4.100), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  2.137 ms  2.473 ms  2.599 ms
  2  96.120.42.133 (96.120.42.133)  12.266 ms  16.334 ms  16.859 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  19.456 ms  20.201 ms  20.596 ms
@@ -223,7 +223,7 @@ traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Thu 23 Nov 2023 10:58:47 AM EST
-traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
+traceroute to 166.111.4.100 (166.111.4.100), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  6.264 ms  6.593 ms  6.580 ms
  2  96.120.42.133 (96.120.42.133)  25.240 ms  26.472 ms  25.962 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  23.994 ms  24.346 ms  24.801 ms
@@ -255,7 +255,7 @@ traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Fri 24 Nov 2023 11:22:57 AM EST
-traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
+traceroute to 166.111.4.100 (166.111.4.100), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  3.670 ms  4.025 ms  4.635 ms
  2  96.120.42.133 (96.120.42.133)  12.650 ms  19.938 ms  20.231 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  19.090 ms  19.345 ms  19.644 ms
@@ -287,7 +287,7 @@ traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Fri 24 Nov 2023 03:38:55 PM EST
-traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
+traceroute to 166.111.4.100 (166.111.4.100), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  4.331 ms  5.325 ms  5.906 ms
  2  96.120.42.133 (96.120.42.133)  13.114 ms  13.590 ms  21.201 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  20.002 ms  20.362 ms  20.747 ms
@@ -319,7 +319,7 @@ traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Sat 25 Nov 2023 11:01:12 AM EST
-traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
+traceroute to 166.111.4.100 (166.111.4.100), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  4.219 ms  4.526 ms  4.905 ms
  2  96.120.42.133 (96.120.42.133)  14.110 ms  14.095 ms  14.082 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  13.366 ms  19.935 ms  20.637 ms
@@ -351,7 +351,7 @@ traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Sat 25 Nov 2023 02:15:20 PM EST
-traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
+traceroute to 166.111.4.100 (166.111.4.100), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  3.789 ms  4.034 ms  4.157 ms
  2  96.120.42.133 (96.120.42.133)  13.190 ms  21.193 ms  20.778 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  19.760 ms  19.808 ms  20.252 ms
@@ -383,7 +383,7 @@ traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Sat 25 Nov 2023 02:59:34 PM EST
-traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
+traceroute to 166.111.4.100 (166.111.4.100), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  2.367 ms  3.563 ms  3.705 ms
  2  96.120.42.133 (96.120.42.133)  16.504 ms  16.045 ms  17.273 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  14.534 ms  14.919 ms  15.510 ms
@@ -415,7 +415,7 @@ traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Sat 25 Nov 2023 10:17:26 PM EST
-traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
+traceroute to 166.111.4.100 (166.111.4.100), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  3.675 ms  4.493 ms  4.484 ms
  2  96.120.42.133 (96.120.42.133)  21.211 ms  21.197 ms  21.189 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  17.423 ms  17.884 ms  18.450 ms
@@ -447,7 +447,7 @@ traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Sun 26 Nov 2023 12:09:26 AM EST
-traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
+traceroute to 166.111.4.100 (166.111.4.100), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  3.179 ms  3.476 ms  3.843 ms
  2  96.120.42.133 (96.120.42.133)  12.351 ms  12.758 ms  13.115 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  11.799 ms  11.907 ms  18.908 ms
@@ -479,7 +479,7 @@ traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Sun 26 Nov 2023 12:00:01 PM EST
-traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
+traceroute to 166.111.4.100 (166.111.4.100), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  3.061 ms  3.399 ms  4.812 ms
  2  96.120.42.133 (96.120.42.133)  14.185 ms  21.127 ms  22.009 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  19.888 ms  20.230 ms  20.704 ms
@@ -511,7 +511,7 @@ traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Sun 26 Nov 2023 02:09:51 PM EST
-traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
+traceroute to 166.111.4.100 (166.111.4.100), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  2.827 ms  3.171 ms  3.555 ms
  2  96.120.42.133 (96.120.42.133)  16.892 ms  17.429 ms  17.414 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  14.379 ms  14.759 ms  16.265 ms
@@ -543,7 +543,7 @@ traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Sun 26 Nov 2023 04:28:42 PM EST
-traceroute to www.tsinghua.edu.cn (166.111.4.100), 30 hops max, 60 byte packets
+traceroute to 166.111.4.100 (166.111.4.100), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  2.699 ms  2.788 ms  3.165 ms
  2  96.120.42.133 (96.120.42.133)  12.061 ms  12.519 ms  11.607 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  19.536 ms  20.198 ms  20.195 ms

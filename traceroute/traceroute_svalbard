@@ -1,5 +1,5 @@
 Sun 19 Nov 2023 02:45:31 PM EST
-traceroute to www.faroeislands.fo (34.247.153.46), 30 hops max, 60 byte packets
+traceroute to 34.247.153.46 (34.247.153.46), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  8.179 ms  9.128 ms  9.486 ms
  2  96.120.42.133 (96.120.42.133)  18.291 ms  39.331 ms  39.318 ms
  3  po-301-1203-rur01.monroe.mi.michigan.comcast.net (96.110.96.49)  32.945 ms  35.369 ms  35.613 ms
@@ -31,7 +31,7 @@ traceroute to www.faroeislands.fo (34.247.153.46), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Sun 19 Nov 2023 08:21:15 PM EST
-traceroute to www.faroeislands.fo (54.154.71.17), 30 hops max, 60 byte packets
+traceroute to 34.247.153.46 (54.154.71.17), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  1.986 ms  2.236 ms  3.990 ms
  2  96.120.42.133 (96.120.42.133)  13.117 ms  20.920 ms  20.084 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  19.061 ms  19.450 ms  19.511 ms
@@ -63,7 +63,7 @@ traceroute to www.faroeislands.fo (54.154.71.17), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Mon 20 Nov 2023 06:43:32 PM EST
-traceroute to www.faroeislands.fo (34.247.153.46), 30 hops max, 60 byte packets
+traceroute to 34.247.153.46 (34.247.153.46), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  4.332 ms  4.426 ms  4.780 ms
  2  96.120.42.133 (96.120.42.133)  18.617 ms  19.154 ms  20.120 ms
  3  po-301-1203-rur01.monroe.mi.michigan.comcast.net (96.110.96.49)  16.601 ms  17.350 ms  17.344 ms
@@ -95,7 +95,7 @@ traceroute to www.faroeislands.fo (34.247.153.46), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Mon 20 Nov 2023 09:16:04 PM EST
-traceroute to www.faroeislands.fo (54.154.71.17), 30 hops max, 60 byte packets
+traceroute to 34.247.153.46 (54.154.71.17), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  2.388 ms  2.720 ms  3.770 ms
  2  96.120.42.133 (96.120.42.133)  15.104 ms  22.259 ms  23.158 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  21.044 ms  21.404 ms  21.655 ms
@@ -127,7 +127,7 @@ traceroute to www.faroeislands.fo (54.154.71.17), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Tue 21 Nov 2023 09:32:00 PM EST
-traceroute to www.faroeislands.fo (54.154.71.17), 30 hops max, 60 byte packets
+traceroute to 34.247.153.46 (54.154.71.17), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  3.053 ms  3.557 ms  5.312 ms
  2  96.120.42.133 (96.120.42.133)  17.998 ms  18.987 ms  18.496 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  19.720 ms  20.072 ms  20.460 ms
@@ -159,7 +159,7 @@ traceroute to www.faroeislands.fo (54.154.71.17), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Tue 21 Nov 2023 09:48:38 PM EST
-traceroute to www.faroeislands.fo (34.247.153.46), 30 hops max, 60 byte packets
+traceroute to 34.247.153.46 (34.247.153.46), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  3.006 ms  2.965 ms  4.881 ms
  2  96.120.42.133 (96.120.42.133)  10.829 ms  11.298 ms  11.811 ms
  3  po-301-1203-rur01.monroe.mi.michigan.comcast.net (96.110.96.49)  17.098 ms  17.077 ms  17.057 ms
@@ -191,7 +191,7 @@ traceroute to www.faroeislands.fo (34.247.153.46), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Wed 22 Nov 2023 11:24:30 AM EST
-traceroute to www.faroeislands.fo (34.247.153.46), 30 hops max, 60 byte packets
+traceroute to 34.247.153.46 (34.247.153.46), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  5.722 ms  6.064 ms  6.445 ms
  2  96.120.42.133 (96.120.42.133)  43.555 ms  43.543 ms  43.531 ms
  3  po-301-1203-rur01.monroe.mi.michigan.comcast.net (96.110.96.49)  33.919 ms  37.357 ms  37.345 ms
@@ -223,7 +223,7 @@ traceroute to www.faroeislands.fo (34.247.153.46), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Thu 23 Nov 2023 10:58:26 AM EST
-traceroute to www.faroeislands.fo (34.247.153.46), 30 hops max, 60 byte packets
+traceroute to 34.247.153.46 (34.247.153.46), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  2.883 ms  2.897 ms  3.174 ms
  2  96.120.42.133 (96.120.42.133)  12.291 ms  12.855 ms  13.332 ms
  3  po-301-1203-rur01.monroe.mi.michigan.comcast.net (96.110.96.49)  18.625 ms  20.431 ms  21.266 ms
@@ -255,7 +255,7 @@ traceroute to www.faroeislands.fo (34.247.153.46), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Fri 24 Nov 2023 11:22:36 AM EST
-traceroute to www.faroeislands.fo (34.241.190.130), 30 hops max, 60 byte packets
+traceroute to 34.247.153.46 (34.241.190.130), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  4.514 ms  5.119 ms  5.105 ms
  2  96.120.42.133 (96.120.42.133)  18.949 ms  20.312 ms  20.299 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  18.099 ms  18.358 ms  19.196 ms
@@ -287,7 +287,7 @@ traceroute to www.faroeislands.fo (34.241.190.130), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Fri 24 Nov 2023 03:38:34 PM EST
-traceroute to www.faroeislands.fo (34.241.190.130), 30 hops max, 60 byte packets
+traceroute to 34.247.153.46 (34.241.190.130), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  3.782 ms  4.130 ms  4.516 ms
  2  96.120.42.133 (96.120.42.133)  11.064 ms  18.950 ms  19.455 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  17.646 ms  17.930 ms  18.404 ms
@@ -319,7 +319,7 @@ traceroute to www.faroeislands.fo (34.241.190.130), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Sat 25 Nov 2023 11:00:51 AM EST
-traceroute to www.faroeislands.fo (34.241.190.130), 30 hops max, 60 byte packets
+traceroute to 34.247.153.46 (34.241.190.130), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  2.572 ms  2.934 ms  3.780 ms
  2  96.120.42.133 (96.120.42.133)  12.429 ms  21.035 ms  21.522 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  19.860 ms  19.982 ms  20.098 ms
@@ -351,7 +351,7 @@ traceroute to www.faroeislands.fo (34.241.190.130), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Sat 25 Nov 2023 02:14:59 PM EST
-traceroute to www.faroeislands.fo (34.247.153.46), 30 hops max, 60 byte packets
+traceroute to 34.247.153.46 (34.247.153.46), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  2.125 ms  2.754 ms  4.190 ms
  2  96.120.42.133 (96.120.42.133)  13.376 ms  20.758 ms  21.302 ms
  3  po-301-1203-rur01.monroe.mi.michigan.comcast.net (96.110.96.49)  20.134 ms  20.121 ms  20.106 ms
@@ -383,7 +383,7 @@ traceroute to www.faroeislands.fo (34.247.153.46), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Sat 25 Nov 2023 02:59:13 PM EST
-traceroute to www.faroeislands.fo (34.247.153.46), 30 hops max, 60 byte packets
+traceroute to 34.247.153.46 (34.247.153.46), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  2.391 ms  3.431 ms  3.415 ms
  2  96.120.42.133 (96.120.42.133)  16.922 ms  17.355 ms  22.092 ms
  3  po-301-1203-rur01.monroe.mi.michigan.comcast.net (96.110.96.49)  20.555 ms  20.973 ms  21.345 ms
@@ -415,7 +415,7 @@ traceroute to www.faroeislands.fo (34.247.153.46), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Sat 25 Nov 2023 10:17:06 PM EST
-traceroute to www.faroeislands.fo (34.241.190.130), 30 hops max, 60 byte packets
+traceroute to 34.247.153.46 (34.241.190.130), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  2.085 ms  2.363 ms  4.869 ms
  2  96.120.42.133 (96.120.42.133)  23.143 ms  23.129 ms  23.116 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  20.938 ms  21.323 ms  21.872 ms
@@ -447,7 +447,7 @@ traceroute to www.faroeislands.fo (34.241.190.130), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Sun 26 Nov 2023 12:09:06 AM EST
-traceroute to www.faroeislands.fo (34.247.153.46), 30 hops max, 60 byte packets
+traceroute to 34.247.153.46 (34.247.153.46), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  1.998 ms  2.329 ms  2.837 ms
  2  96.120.42.133 (96.120.42.133)  13.198 ms  24.687 ms  25.533 ms
  3  po-301-1203-rur01.monroe.mi.michigan.comcast.net (96.110.96.49)  20.704 ms  22.450 ms  22.437 ms
@@ -479,7 +479,7 @@ traceroute to www.faroeislands.fo (34.247.153.46), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Sun 26 Nov 2023 11:59:40 AM EST
-traceroute to www.faroeislands.fo (34.241.190.130), 30 hops max, 60 byte packets
+traceroute to 34.247.153.46 (34.241.190.130), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  1.893 ms  2.499 ms  3.331 ms
  2  96.120.42.133 (96.120.42.133)  12.166 ms  11.762 ms  18.969 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  17.735 ms  18.088 ms  18.476 ms
@@ -511,7 +511,7 @@ traceroute to www.faroeislands.fo (34.241.190.130), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Sun 26 Nov 2023 02:09:30 PM EST
-traceroute to www.faroeislands.fo (34.247.153.46), 30 hops max, 60 byte packets
+traceroute to 34.247.153.46 (34.247.153.46), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  3.896 ms  4.200 ms  4.578 ms
  2  96.120.42.133 (96.120.42.133)  10.971 ms  10.674 ms  20.431 ms
  3  po-301-1203-rur01.monroe.mi.michigan.comcast.net (96.110.96.49)  18.548 ms  21.408 ms  21.394 ms
@@ -543,7 +543,7 @@ traceroute to www.faroeislands.fo (34.247.153.46), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Sun 26 Nov 2023 04:28:22 PM EST
-traceroute to www.faroeislands.fo (34.247.153.46), 30 hops max, 60 byte packets
+traceroute to 34.247.153.46 (34.247.153.46), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  2.601 ms  2.750 ms  2.888 ms
  2  96.120.42.133 (96.120.42.133)  10.661 ms  11.620 ms  11.198 ms
  3  po-301-1203-rur01.monroe.mi.michigan.comcast.net (96.110.96.49)  10.135 ms  16.851 ms  17.337 ms

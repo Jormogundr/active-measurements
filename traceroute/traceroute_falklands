@@ -1,5 +1,5 @@
 Sun 19 Nov 2023 02:46:34 PM EST
-traceroute to www.falklandislands.com (51.145.110.210), 30 hops max, 60 byte packets
+traceroute to 51.145.110.210 (51.145.110.210), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  2.748 ms  3.022 ms  4.378 ms
  2  96.120.42.133 (96.120.42.133)  13.733 ms  14.362 ms  19.900 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  19.114 ms  19.234 ms  19.360 ms
@@ -31,7 +31,7 @@ traceroute to www.falklandislands.com (51.145.110.210), 30 hops max, 60 byte pac
 29  * * *
 30  * * *
 Sun 19 Nov 2023 08:22:27 PM EST
-traceroute to www.falklandislands.com (51.145.110.210), 30 hops max, 60 byte packets
+traceroute to 51.145.110.210 (51.145.110.210), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  1.827 ms  2.400 ms  2.954 ms
  2  96.120.42.133 (96.120.42.133)  16.661 ms  15.572 ms  17.138 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  18.110 ms  18.480 ms  20.001 ms
@@ -63,7 +63,7 @@ traceroute to www.falklandislands.com (51.145.110.210), 30 hops max, 60 byte pac
 29  * * *
 30  * * *
 Mon 20 Nov 2023 06:44:36 PM EST
-traceroute to www.falklandislands.com (51.145.110.210), 30 hops max, 60 byte packets
+traceroute to 51.145.110.210 (51.145.110.210), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  2.547 ms  2.849 ms  3.886 ms
  2  96.120.42.133 (96.120.42.133)  14.563 ms  21.284 ms  21.777 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  20.071 ms  20.450 ms  20.820 ms
@@ -95,7 +95,7 @@ traceroute to www.falklandislands.com (51.145.110.210), 30 hops max, 60 byte pac
 29  * * *
 30  * * *
 Mon 20 Nov 2023 09:17:15 PM EST
-traceroute to www.falklandislands.com (51.145.110.210), 30 hops max, 60 byte packets
+traceroute to 51.145.110.210 (51.145.110.210), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  3.066 ms  3.013 ms  2.999 ms
  2  96.120.42.133 (96.120.42.133)  15.091 ms  13.945 ms  15.794 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  20.197 ms  20.573 ms  20.925 ms
@@ -127,7 +127,7 @@ traceroute to www.falklandislands.com (51.145.110.210), 30 hops max, 60 byte pac
 29  * * *
 30  * * *
 Tue 21 Nov 2023 09:33:10 PM EST
-traceroute to www.falklandislands.com (51.145.110.210), 30 hops max, 60 byte packets
+traceroute to 51.145.110.210 (51.145.110.210), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  2.755 ms  3.340 ms  3.941 ms
  2  96.120.42.133 (96.120.42.133)  13.061 ms  14.446 ms  13.973 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  12.028 ms  12.412 ms  12.540 ms
@@ -159,7 +159,7 @@ traceroute to www.falklandislands.com (51.145.110.210), 30 hops max, 60 byte pac
 29  * * *
 30  * * *
 Tue 21 Nov 2023 09:49:43 PM EST
-traceroute to www.falklandislands.com (51.145.110.210), 30 hops max, 60 byte packets
+traceroute to 51.145.110.210 (51.145.110.210), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  2.797 ms  3.076 ms  3.461 ms
  2  96.120.42.133 (96.120.42.133)  14.500 ms  15.073 ms  23.316 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  22.110 ms  22.399 ms  22.521 ms
@@ -191,7 +191,7 @@ traceroute to www.falklandislands.com (51.145.110.210), 30 hops max, 60 byte pac
 29  * * *
 30  * * *
 Wed 22 Nov 2023 11:25:37 AM EST
-traceroute to www.falklandislands.com (51.145.110.210), 30 hops max, 60 byte packets
+traceroute to 51.145.110.210 (51.145.110.210), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  2.734 ms  2.683 ms  4.438 ms
  2  96.120.42.133 (96.120.42.133)  16.845 ms  17.850 ms  16.305 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  15.247 ms  15.361 ms  15.734 ms
@@ -223,7 +223,7 @@ traceroute to www.falklandislands.com (51.145.110.210), 30 hops max, 60 byte pac
 29  * * *
 30  * * *
 Thu 23 Nov 2023 10:59:38 AM EST
-traceroute to www.falklandislands.com (51.145.110.210), 30 hops max, 60 byte packets
+traceroute to 51.145.110.210 (51.145.110.210), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  2.243 ms  3.473 ms  4.102 ms
  2  96.120.42.133 (96.120.42.133)  15.727 ms  23.987 ms  24.400 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  22.866 ms  23.224 ms  23.368 ms
@@ -255,7 +255,7 @@ traceroute to www.falklandislands.com (51.145.110.210), 30 hops max, 60 byte pac
 29  * * *
 30  * * *
 Fri 24 Nov 2023 11:23:48 AM EST
-traceroute to www.falklandislands.com (51.145.110.210), 30 hops max, 60 byte packets
+traceroute to 51.145.110.210 (51.145.110.210), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  1.913 ms  2.137 ms  5.222 ms
  2  96.120.42.133 (96.120.42.133)  15.779 ms  16.284 ms  23.859 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  22.738 ms  23.082 ms  23.461 ms
@@ -287,7 +287,7 @@ traceroute to www.falklandislands.com (51.145.110.210), 30 hops max, 60 byte pac
 29  * * *
 30  * * *
 Fri 24 Nov 2023 03:39:48 PM EST
-traceroute to www.falklandislands.com (51.145.110.210), 30 hops max, 60 byte packets
+traceroute to 51.145.110.210 (51.145.110.210), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  1.831 ms  2.077 ms  3.166 ms
  2  96.120.42.133 (96.120.42.133)  13.068 ms  22.672 ms  24.592 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  21.328 ms  21.704 ms  22.077 ms
@@ -319,7 +319,7 @@ traceroute to www.falklandislands.com (51.145.110.210), 30 hops max, 60 byte pac
 29  * * *
 30  * * *
 Sat 25 Nov 2023 11:01:58 AM EST
-traceroute to www.falklandislands.com (51.145.110.210), 30 hops max, 60 byte packets
+traceroute to 51.145.110.210 (51.145.110.210), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  2.237 ms  2.547 ms  2.832 ms
  2  96.120.42.133 (96.120.42.133)  26.827 ms  28.646 ms  29.228 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  23.504 ms  25.196 ms  25.909 ms
@@ -351,7 +351,7 @@ traceroute to www.falklandislands.com (51.145.110.210), 30 hops max, 60 byte pac
 29  * * *
 30  * * *
 Sat 25 Nov 2023 02:16:06 PM EST
-traceroute to www.falklandislands.com (51.145.110.210), 30 hops max, 60 byte packets
+traceroute to 51.145.110.210 (51.145.110.210), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  2.403 ms  2.964 ms  4.243 ms
  2  96.120.42.133 (96.120.42.133)  14.334 ms  15.402 ms  14.896 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  19.944 ms  19.993 ms  20.427 ms
@@ -383,7 +383,7 @@ traceroute to www.falklandislands.com (51.145.110.210), 30 hops max, 60 byte pac
 29  * * *
 30  * * *
 Sat 25 Nov 2023 03:00:20 PM EST
-traceroute to www.falklandislands.com (51.145.110.210), 30 hops max, 60 byte packets
+traceroute to 51.145.110.210 (51.145.110.210), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  2.304 ms  2.650 ms  3.884 ms
  2  96.120.42.133 (96.120.42.133)  13.078 ms  20.553 ms  23.595 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  19.473 ms  19.916 ms  20.039 ms
@@ -415,7 +415,7 @@ traceroute to www.falklandislands.com (51.145.110.210), 30 hops max, 60 byte pac
 29  * * *
 30  * * *
 Sat 25 Nov 2023 10:18:13 PM EST
-traceroute to www.falklandislands.com (51.145.110.210), 30 hops max, 60 byte packets
+traceroute to 51.145.110.210 (51.145.110.210), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  2.093 ms  2.283 ms  3.127 ms
  2  96.120.42.133 (96.120.42.133)  12.172 ms  11.572 ms  17.720 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  16.547 ms  16.881 ms  17.337 ms
@@ -447,7 +447,7 @@ traceroute to www.falklandislands.com (51.145.110.210), 30 hops max, 60 byte pac
 29  * * *
 30  * * *
 Sun 26 Nov 2023 12:10:15 AM EST
-traceroute to www.falklandislands.com (51.145.110.210), 30 hops max, 60 byte packets
+traceroute to 51.145.110.210 (51.145.110.210), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  2.061 ms  3.470 ms  3.839 ms
  2  96.120.42.133 (96.120.42.133)  12.737 ms  19.392 ms  20.322 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  18.206 ms  18.567 ms  19.031 ms
@@ -479,7 +479,7 @@ traceroute to www.falklandislands.com (51.145.110.210), 30 hops max, 60 byte pac
 29  * * *
 30  * * *
 Sun 26 Nov 2023 12:00:52 PM EST
-traceroute to www.falklandislands.com (51.145.110.210), 30 hops max, 60 byte packets
+traceroute to 51.145.110.210 (51.145.110.210), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  2.937 ms  2.887 ms  2.871 ms
  2  96.120.42.133 (96.120.42.133)  11.905 ms  18.804 ms  19.702 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  17.577 ms  17.944 ms  18.316 ms
@@ -511,7 +511,7 @@ traceroute to www.falklandislands.com (51.145.110.210), 30 hops max, 60 byte pac
 29  * * *
 30  * * *
 Sun 26 Nov 2023 02:10:36 PM EST
-traceroute to www.falklandislands.com (51.145.110.210), 30 hops max, 60 byte packets
+traceroute to 51.145.110.210 (51.145.110.210), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  1.940 ms  3.160 ms  4.437 ms
  2  96.120.42.133 (96.120.42.133)  16.226 ms  16.696 ms  23.604 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  22.520 ms  22.645 ms  23.026 ms
@@ -543,7 +543,7 @@ traceroute to www.falklandislands.com (51.145.110.210), 30 hops max, 60 byte pac
 29  * * *
 30  * * *
 Sun 26 Nov 2023 04:29:32 PM EST
-traceroute to www.falklandislands.com (51.145.110.210), 30 hops max, 60 byte packets
+traceroute to 51.145.110.210 (51.145.110.210), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  3.083 ms  3.690 ms  3.828 ms
  2  96.120.42.133 (96.120.42.133)  11.975 ms  19.641 ms  20.145 ms
  3  po-301-1204-rur02.monroe.mi.michigan.comcast.net (68.85.218.121)  18.422 ms  18.772 ms  19.152 ms

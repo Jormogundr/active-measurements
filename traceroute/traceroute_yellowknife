@@ -1,5 +1,5 @@
 Sun 19 Nov 2023 02:46:12 PM EST
-traceroute to www.yellowknife.ca (20.104.44.154), 30 hops max, 60 byte packets
+traceroute to 20.104.44.154 (20.104.44.154), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  2.317 ms  2.631 ms  3.261 ms
  2  96.120.42.133 (96.120.42.133)  26.374 ms  26.844 ms  25.827 ms
  3  po-301-1203-rur01.monroe.mi.michigan.comcast.net (96.110.96.49)  24.357 ms  25.217 ms  25.203 ms
@@ -31,7 +31,7 @@ traceroute to www.yellowknife.ca (20.104.44.154), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Sun 19 Nov 2023 08:22:04 PM EST
-traceroute to www.yellowknife.ca (20.104.44.154), 30 hops max, 60 byte packets
+traceroute to 20.104.44.154 (20.104.44.154), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  4.109 ms  4.032 ms  4.016 ms
  2  96.120.42.133 (96.120.42.133)  15.518 ms  17.004 ms  16.309 ms
  3  po-301-1203-rur01.monroe.mi.michigan.comcast.net (96.110.96.49)  18.518 ms  24.361 ms  25.361 ms
@@ -63,7 +63,7 @@ traceroute to www.yellowknife.ca (20.104.44.154), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Mon 20 Nov 2023 06:44:13 PM EST
-traceroute to www.yellowknife.ca (20.104.44.154), 30 hops max, 60 byte packets
+traceroute to 20.104.44.154 (20.104.44.154), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  2.507 ms  2.786 ms  4.301 ms
  2  96.120.42.133 (96.120.42.133)  13.991 ms  14.426 ms  21.602 ms
  3  po-301-1203-rur01.monroe.mi.michigan.comcast.net (96.110.96.49)  20.993 ms  21.440 ms  22.092 ms
@@ -95,7 +95,7 @@ traceroute to www.yellowknife.ca (20.104.44.154), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Mon 20 Nov 2023 09:16:53 PM EST
-traceroute to www.yellowknife.ca (20.104.44.154), 30 hops max, 60 byte packets
+traceroute to 20.104.44.154 (20.104.44.154), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  4.565 ms  4.896 ms  5.254 ms
  2  96.120.42.133 (96.120.42.133)  14.280 ms  14.756 ms  20.371 ms
  3  po-301-1203-rur01.monroe.mi.michigan.comcast.net (96.110.96.49)  19.960 ms  21.065 ms  21.052 ms
@@ -127,7 +127,7 @@ traceroute to www.yellowknife.ca (20.104.44.154), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Tue 21 Nov 2023 09:32:48 PM EST
-traceroute to www.yellowknife.ca (20.104.44.154), 30 hops max, 60 byte packets
+traceroute to 20.104.44.154 (20.104.44.154), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  2.172 ms  3.056 ms  3.041 ms
  2  96.120.42.133 (96.120.42.133)  13.532 ms  23.240 ms  23.228 ms
  3  po-301-1203-rur01.monroe.mi.michigan.comcast.net (96.110.96.49)  21.574 ms  22.030 ms  22.018 ms
@@ -159,7 +159,7 @@ traceroute to www.yellowknife.ca (20.104.44.154), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Tue 21 Nov 2023 09:49:21 PM EST
-traceroute to www.yellowknife.ca (20.104.44.154), 30 hops max, 60 byte packets
+traceroute to 20.104.44.154 (20.104.44.154), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  2.424 ms  2.412 ms  3.000 ms
  2  96.120.42.133 (96.120.42.133)  11.528 ms  19.541 ms  18.678 ms
  3  po-301-1203-rur01.monroe.mi.michigan.comcast.net (96.110.96.49)  17.772 ms  18.480 ms  18.467 ms
@@ -191,7 +191,7 @@ traceroute to www.yellowknife.ca (20.104.44.154), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Wed 22 Nov 2023 11:25:15 AM EST
-traceroute to www.yellowknife.ca (20.104.44.154), 30 hops max, 60 byte packets
+traceroute to 20.104.44.154 (20.104.44.154), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  1.943 ms  1.942 ms  2.690 ms
  2  96.120.42.133 (96.120.42.133)  12.607 ms  12.126 ms  19.270 ms
  3  po-301-1203-rur01.monroe.mi.michigan.comcast.net (96.110.96.49)  18.220 ms  18.634 ms  18.620 ms
@@ -223,7 +223,7 @@ traceroute to www.yellowknife.ca (20.104.44.154), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Thu 23 Nov 2023 10:59:16 AM EST
-traceroute to www.yellowknife.ca (20.104.44.154), 30 hops max, 60 byte packets
+traceroute to 20.104.44.154 (20.104.44.154), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  1.822 ms  1.831 ms  3.640 ms
  2  96.120.42.133 (96.120.42.133)  12.781 ms  20.516 ms  21.111 ms
  3  po-301-1203-rur01.monroe.mi.michigan.comcast.net (96.110.96.49)  19.563 ms  19.891 ms  19.879 ms
@@ -255,7 +255,7 @@ traceroute to www.yellowknife.ca (20.104.44.154), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Fri 24 Nov 2023 11:23:25 AM EST
-traceroute to www.yellowknife.ca (20.104.44.154), 30 hops max, 60 byte packets
+traceroute to 20.104.44.154 (20.104.44.154), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  2.928 ms  2.934 ms  9.374 ms
  2  96.120.42.133 (96.120.42.133)  20.658 ms  20.644 ms  20.631 ms
  3  po-301-1203-rur01.monroe.mi.michigan.comcast.net (96.110.96.49)  17.856 ms  18.335 ms  18.321 ms
@@ -287,7 +287,7 @@ traceroute to www.yellowknife.ca (20.104.44.154), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Fri 24 Nov 2023 03:39:25 PM EST
-traceroute to www.yellowknife.ca (20.104.44.154), 30 hops max, 60 byte packets
+traceroute to 20.104.44.154 (20.104.44.154), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  3.743 ms  3.686 ms  3.671 ms
  2  96.120.42.133 (96.120.42.133)  19.267 ms  18.694 ms  20.400 ms
  3  po-301-1203-rur01.monroe.mi.michigan.comcast.net (96.110.96.49)  17.619 ms  17.655 ms  18.112 ms
@@ -319,7 +319,7 @@ traceroute to www.yellowknife.ca (20.104.44.154), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Sat 25 Nov 2023 11:01:35 AM EST
-traceroute to www.yellowknife.ca (20.104.44.154), 30 hops max, 60 byte packets
+traceroute to 20.104.44.154 (20.104.44.154), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  3.419 ms  3.413 ms  3.789 ms
  2  96.120.42.133 (96.120.42.133)  11.540 ms  19.419 ms  19.830 ms
  3  po-301-1203-rur01.monroe.mi.michigan.comcast.net (96.110.96.49)  18.660 ms  18.788 ms  18.773 ms
@@ -351,7 +351,7 @@ traceroute to www.yellowknife.ca (20.104.44.154), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Sat 25 Nov 2023 02:15:44 PM EST
-traceroute to www.yellowknife.ca (20.104.44.154), 30 hops max, 60 byte packets
+traceroute to 20.104.44.154 (20.104.44.154), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  2.864 ms  3.429 ms  4.984 ms
  2  96.120.42.133 (96.120.42.133)  13.425 ms  20.408 ms  20.933 ms
  3  po-301-1203-rur01.monroe.mi.michigan.comcast.net (96.110.96.49)  19.482 ms  19.829 ms  19.815 ms
@@ -383,7 +383,7 @@ traceroute to www.yellowknife.ca (20.104.44.154), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Sat 25 Nov 2023 02:59:58 PM EST
-traceroute to www.yellowknife.ca (20.104.44.154), 30 hops max, 60 byte packets
+traceroute to 20.104.44.154 (20.104.44.154), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  3.246 ms  3.557 ms  4.673 ms
  2  96.120.42.133 (96.120.42.133)  11.948 ms  23.270 ms  25.167 ms
  3  po-301-1203-rur01.monroe.mi.michigan.comcast.net (96.110.96.49)  21.980 ms  22.768 ms  22.753 ms
@@ -415,7 +415,7 @@ traceroute to www.yellowknife.ca (20.104.44.154), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Sat 25 Nov 2023 10:17:50 PM EST
-traceroute to www.yellowknife.ca (20.104.44.154), 30 hops max, 60 byte packets
+traceroute to 20.104.44.154 (20.104.44.154), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  2.755 ms  3.276 ms  3.666 ms
  2  96.120.42.133 (96.120.42.133)  12.452 ms  20.627 ms  21.374 ms
  3  po-301-1203-rur01.monroe.mi.michigan.comcast.net (96.110.96.49)  19.330 ms  19.669 ms  19.656 ms
@@ -447,7 +447,7 @@ traceroute to www.yellowknife.ca (20.104.44.154), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Sun 26 Nov 2023 12:09:53 AM EST
-traceroute to www.yellowknife.ca (20.104.44.154), 30 hops max, 60 byte packets
+traceroute to 20.104.44.154 (20.104.44.154), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  2.328 ms  3.735 ms  4.106 ms
  2  96.120.42.133 (96.120.42.133)  10.119 ms  11.014 ms  10.562 ms
  3  po-301-1203-rur01.monroe.mi.michigan.comcast.net (96.110.96.49)  9.735 ms  14.900 ms  15.038 ms
@@ -479,7 +479,7 @@ traceroute to www.yellowknife.ca (20.104.44.154), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Sun 26 Nov 2023 12:00:30 PM EST
-traceroute to www.yellowknife.ca (20.104.44.154), 30 hops max, 60 byte packets
+traceroute to 20.104.44.154 (20.104.44.154), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  3.041 ms  3.392 ms  3.431 ms
  2  96.120.42.133 (96.120.42.133)  11.519 ms  12.123 ms  18.150 ms
  3  po-301-1203-rur01.monroe.mi.michigan.comcast.net (96.110.96.49)  17.248 ms  17.606 ms  17.593 ms
@@ -511,7 +511,7 @@ traceroute to www.yellowknife.ca (20.104.44.154), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Sun 26 Nov 2023 02:10:14 PM EST
-traceroute to www.yellowknife.ca (20.104.44.154), 30 hops max, 60 byte packets
+traceroute to 20.104.44.154 (20.104.44.154), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  4.264 ms  4.559 ms  4.891 ms
  2  96.120.42.133 (96.120.42.133)  22.249 ms  22.732 ms  22.720 ms
  3  po-301-1203-rur01.monroe.mi.michigan.comcast.net (96.110.96.49)  20.449 ms  20.587 ms  20.933 ms
@@ -543,7 +543,7 @@ traceroute to www.yellowknife.ca (20.104.44.154), 30 hops max, 60 byte packets
 29  * * *
 30  * * *
 Sun 26 Nov 2023 04:29:10 PM EST
-traceroute to www.yellowknife.ca (20.104.44.154), 30 hops max, 60 byte packets
+traceroute to 20.104.44.154 (20.104.44.154), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  12.064 ms  13.567 ms  13.958 ms
  2  96.120.42.133 (96.120.42.133)  25.579 ms  25.939 ms  48.240 ms
  3  po-301-1203-rur01.monroe.mi.michigan.comcast.net (96.110.96.49)  47.247 ms  47.605 ms  47.601 ms

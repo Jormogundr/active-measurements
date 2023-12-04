@@ -93,19 +93,21 @@ def main():
 
             # left hand axis for delays
             ax = plt.gca()
-            ax.set_ylim([min(delays) - 5, max(delays) + 5])
+            ax.set_ylim(0, max(delays) + 5)
+            ax.set_xlim(min(plt_datetimes) - 5, max(plt_datetimes) + PINGS_PER_DST)
             ax.set_title(f"Delay for {f.decode('UTF-8')}")
             ax.plot(
+                np.arange(0, len(delays), 1),
                 delays,
                 ".",
                 marker="o",
                 markersize=2,
                 label="Delay",
             )
-            ax.plot(avg_delay, "r-", linewidth=2, label="Average")
+            ax.plot(np.arange(0, len(avg_delay), 1), avg_delay, "r-", linewidth=2, label="Average")
             ax.vlines(
                 plt_datetimes,
-                ymin=min(delays),
+                ymin=0,
                 ymax=max(delays),
                 color="g",
                 linestyles="dashed",
@@ -117,14 +119,17 @@ def main():
             ax.set_ylabel("Delay (ms)")
 
             # right hand axis for packet loss
+            x_axis_losses = np.arange(PINGS_PER_DST, len(delays) + PINGS_PER_DST, PINGS_PER_DST)
             ax2 = ax.twinx()  # instantiate a second axes that shares the same x-axis
             color = "tab:orange"
             ax2.set_ylabel(
                 "Packet Loss (%)", color=color
             )  # we already handled the x-label with ax1
-            ax2.plot(plt_datetimes, losses, color=color, linewidth=3, label="Packet loss")
+            ax2.plot(
+                x_axis_losses, losses, color=color, linewidth=3, label="Packet loss"
+            )
             ax2.tick_params(axis="y", labelcolor=color)
-            ax2.set_ylim(-0.25, max(losses) + 1)
+            ax2.set_ylim(0, 100)
             ax2.legend(loc="upper right")
 
             # shared y axis components
@@ -165,6 +170,13 @@ def main():
 
             # iterate over lines in file
             for j, line in enumerate(lines):
+                print(f, line)
+                # match end of block
+                end = re.findall(r"^30  ", line)
+                if end:
+                    hopCount = 0
+                    continue
+
                 # match datetime
                 dt = re.findall(
                     r"^[A-Z][a-z]{2}\ \d*\ [A-Z][a-z]{2}\ [\d]{4}\ [\d:]*\ [A-Z]{2}\ EST",
@@ -188,9 +200,9 @@ def main():
                         sum += float(h)
                     hop_avg = sum / len(hop_latency)
                     avg_hop_times.append(hop_avg)
-                    hopCount +=1
-                    if hop_avg > max_latency: 
-                        max_latency = hop_avg 
+                    hopCount += 1
+                    if hop_avg > max_latency:
+                        max_latency = hop_avg
 
                 # match hop destination ip and geolocate
                 ip = re.findall(
@@ -208,14 +220,6 @@ def main():
                 drop = re.findall(r"\* \* \*", line)
                 if drop and hopCount > 0:
                     hops.append(hopCount)
-                
-                # match end of block
-                end = re.findall(r"^30  ", line)
-                if end and hopCount > 5:
-                    hopCount = 0
-
-
-
 
             # plot geolocated ip addresses (for each hop in traceroute)
             df = pd.DataFrame()
@@ -239,7 +243,7 @@ def main():
             k = 0
             x = 0
             d = 0
-            
+
             for i in range(0, len(datetimes)):
                 h = []
                 t = []
@@ -252,14 +256,13 @@ def main():
                 hop_avg_binned_by_num_hops.append(h)
                 x_axis.append(t)
                 d += len(t)
-                
-                k = hops[i]
 
+                k = hops[i]
 
             # plot average hoptimes
             ax = plt.gca()
             for i, hop in enumerate(hop_avg_binned_by_num_hops):
-                ax.plot(x_axis[i], hop, color='tab:blue')
+                ax.plot(x_axis[i], hop, color="tab:blue")
             ax.set_xlabel("Hop Number")
             ax.vlines(
                 days,
@@ -268,10 +271,8 @@ def main():
                 color="g",
                 linestyles="dashed",
                 linewidth=1,
-                label='Datetimes'
+                label="Datetimes",
             )
-            # for i, d in enumerate(days):
-            #     plt.text(d,-115,datetimes[i],rotation=70, color='tab:green', va="bottom")
             ax.set_ylabel("Avg Hop Delay (ms)")
             ax.legend(loc="upper left", fancybox=True, shadow=True)
             plt.title(f"Average Hop Delays for {f.decode('UTF-8')}")
@@ -283,10 +284,8 @@ def main():
             plt.gcf().autofmt_xdate()
             plt.show()
 
-
-    #plot_ping_data()
+    plot_ping_data()
     plot_traceroute_data()
-    
 
 
 if __name__ == "__main__":

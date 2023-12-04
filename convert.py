@@ -39,8 +39,9 @@ def main():
             icmp_sequences = []
             ttls = []
             delays = []
-            datetimes, unix_times = [], []
+            datetimes = []
             destinations = []
+            losses = []
 
             # iterate over lines in file
             for j, line in enumerate(lines):
@@ -54,6 +55,11 @@ def main():
                 if ttl:
                     ttls.append(ttl[0])
 
+                # match packet loss
+                loss = re.findall(r"\d*\.?\d*\%", line)
+                if loss:
+                    losses.append(float(loss[0].strip("%")))
+
                 # match time
                 delay = re.findall(r"(?i)time=([0-9]*)", line)
                 if delay:
@@ -65,13 +71,7 @@ def main():
                     line,
                 )
                 if dt:
-                    unix_time = int(
-                        sp.getoutput(f"date --date='{dt[0]}' +FORMAT='%s'").strip(
-                            "FORMAT="
-                        )
-                    )
-                    dt = pd.to_datetime(unix_time, unit="s")
-                    unix_times.append(unix_time)
+                    dt = pd.to_datetime(dt[0], format="%a %d %b %Y %I:%M:%S %p %Z")
                     datetimes.append(dt)
 
                 # match destination
@@ -82,36 +82,53 @@ def main():
             num_measurements = int(len(delays) / PINGS_PER_DST)
 
             # handle plots on per file basis
-            avg = []
+            avg_delay = []
             window = 10
 
             # calculate average window
             for ind in range(len(delays) - window + 1):
-                avg.append(np.mean(delays[ind : ind + window]))
+                avg_delay.append(np.mean(delays[ind : ind + window]))
 
             plt_datetimes = np.arange(0, len(delays), PINGS_PER_DST)
 
-            # plot
-            plt.vlines(3, ymin=0, ymax=1)
+            # left hand axis for delays
             ax = plt.gca()
             ax.set_ylim([min(delays) - 5, max(delays) + 5])
             ax.set_title(f"Delay for {f.decode('UTF-8')}")
-            ax.plot(delays, ".", label="Raw data")
-            ax.plot(avg, "r-", label="Average")
+            ax.plot(
+                delays,
+                ".",
+                marker="o",
+                markersize=2,
+                label="Delay",
+            )
+            ax.plot(avg_delay, "r-", linewidth=2, label="Average")
             ax.vlines(
                 plt_datetimes,
                 ymin=min(delays),
                 ymax=max(delays),
                 color="g",
                 linestyles="dashed",
-                label="Datetimes",
                 linewidth=1,
             )
             ax.set_xlabel("Measurement")
             ax.set_xticks(plt_datetimes)
             ax.set_xticklabels(datetimes)
             ax.set_ylabel("Delay (ms)")
-            ax.legend(loc="upper right", fancybox=True, shadow=True)
+
+            # right hand axis for packet loss
+            ax2 = ax.twinx()  # instantiate a second axes that shares the same x-axis
+            color = "tab:orange"
+            ax2.set_ylabel(
+                "Packet Loss (%)", color=color
+            )  # we already handled the x-label with ax1
+            ax2.plot(plt_datetimes, losses, color=color, linewidth=3, label="Packet loss")
+            ax2.tick_params(axis="y", labelcolor=color)
+            ax2.set_ylim(-0.25, max(losses) + 1)
+            ax2.legend(loc="upper right")
+
+            # shared y axis components
+            ax.legend(loc="upper left", fancybox=True, shadow=True)
             ax.tick_params(axis="x", rotation=70)
             plt.tight_layout()
             plt.savefig(
@@ -121,7 +138,6 @@ def main():
             plt.show()
 
     def plot_traceroute_data():
-
         if not os.path.exists(TRACEROUTE_PATH):
             print("{} does not exist".format(TRACEROUTE_PATH))
 
@@ -137,12 +153,15 @@ def main():
 
             datetimes, unix_times = [], []
             ips = []
-            locations = []
+
+            # initialize geolocated ips with source coord
+            locations = [(41.91864795195216, -83.39556671135584)]
             avg_hop_times = []
-            
-            # traceroute blocks are separated by several newlines
-            # keep track of those so we can match contiguous lines
-            linecount = 3
+            hops = []
+
+            # counter for tracking unique tr blocks and max latency
+            hopCount = 0
+            max_latency = 0
 
             # iterate over lines in file
             for j, line in enumerate(lines):
@@ -167,41 +186,107 @@ def main():
                     sum = 0
                     for h in hop_latency:
                         sum += float(h)
-                    hop_avg = sum/len(hop_latency)
+                    hop_avg = sum / len(hop_latency)
                     avg_hop_times.append(hop_avg)
+                    hopCount +=1
+                    if hop_avg > max_latency: 
+                        max_latency = hop_avg 
 
                 # match hop destination ip and geolocate
-                ip = re.findall(r"([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3})", line)
-                if ip and linecount > 3:
+                ip = re.findall(
+                    r"([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3})", line
+                )
+                if ip:
                     ips.append(ip[0])
-                    linecount = 0
-                    
 
                     # geolocation from ip
                     match = geolite2.lookup(ip[0])
-                    if match.location:
+                    if match and match.location != "192.168.1.1":
                         locations.append(match.location)
-                    else:
-                        locations.append("Unknown location")
 
-                linecount += 1
-        
-            # handle data on per file basis
+                # match dropped packet
+                drop = re.findall(r"\* \* \*", line)
+                if drop and hopCount > 0:
+                    hops.append(hopCount)
+                
+                # match end of block
+                end = re.findall(r"^30  ", line)
+                if end and hopCount > 5:
+                    hopCount = 0
+
+
+
 
             # plot geolocated ip addresses (for each hop in traceroute)
             df = pd.DataFrame()
-            df['Latitude'] = list(zip(*locations))[0]
-            df['Longitude'] = list(zip(*locations))[1]
-            geometry = [Point(xy) for xy in zip(df['Longitude'], df['Latitude'])]
-            gdf = GeoDataFrame(df, geometry=geometry)   
+            df["Latitude"] = list(zip(*locations))[0]
+            df["Longitude"] = list(zip(*locations))[1]
+            geometry = [Point(xy) for xy in zip(df["Longitude"], df["Latitude"])]
+            gdf = GeoDataFrame(df, geometry=geometry)
 
-            world = gpd.read_file(gpd.datasets.get_path('naturalearth_lowres'))
-            gdf.plot(ax=world.plot(figsize=(10, 6)), marker='o', color='red', markersize=10)
+            world = gpd.read_file(gpd.datasets.get_path("naturalearth_lowres"))
+            gdf.plot(
+                ax=world.plot(figsize=(10, 6)), marker="o", color="red", markersize=10
+            )
             plt.title(f"Routing for {f.decode('UTF-8')}")
+            plt.savefig(f"{BASE_PATH}/plots/{f.decode('UTF-8')}-hops.pdf", format="pdf")
             plt.show()
-        
-    plot_traceroute_data()
+
+            # bin the average hop times list by number of hops in a given traceroute command
+            hop_avg_binned_by_num_hops = []
+            x_axis = []
+            days = []
+            k = 0
+            x = 0
+            d = 0
+            
+            for i in range(0, len(datetimes)):
+                h = []
+                t = []
+                days.append(d)
+                for j in range(0, hops[i]):
+                    h.append(avg_hop_times[k])
+                    t.append(x)
+                    k += 1
+                    x += 1
+                hop_avg_binned_by_num_hops.append(h)
+                x_axis.append(t)
+                d += len(t)
+                
+                k = hops[i]
+
+
+            # plot average hoptimes
+            ax = plt.gca()
+            for i, hop in enumerate(hop_avg_binned_by_num_hops):
+                ax.plot(x_axis[i], hop, color='tab:blue')
+            ax.set_xlabel("Hop Number")
+            ax.vlines(
+                days,
+                ymin=0,
+                ymax=max_latency,
+                color="g",
+                linestyles="dashed",
+                linewidth=1,
+                label='Datetimes'
+            )
+            # for i, d in enumerate(days):
+            #     plt.text(d,-115,datetimes[i],rotation=70, color='tab:green', va="bottom")
+            ax.set_ylabel("Avg Hop Delay (ms)")
+            ax.legend(loc="upper left", fancybox=True, shadow=True)
+            plt.title(f"Average Hop Delays for {f.decode('UTF-8')}")
+            ax.tick_params(axis="x", rotation=70)
+            plt.tight_layout()
+            plt.savefig(
+                f"{BASE_PATH}/plots/{f.decode('UTF-8')}-avg-hop-delay.pdf", format="pdf"
+            )
+            plt.gcf().autofmt_xdate()
+            plt.show()
+
+
     #plot_ping_data()
+    plot_traceroute_data()
+    
 
 
 if __name__ == "__main__":
